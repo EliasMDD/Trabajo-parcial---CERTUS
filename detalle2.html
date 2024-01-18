@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Definición del juego de caracteres y ajustes de la vista para dispositivos móviles -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Enlace al archivo de estilos de Bootstrap -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Título de la página -->
+    <title>Detalle</title>
+</head>
+<body>
+    <!-- Contenedor principal utilizando Bootstrap -->
+    <div class="container">
+        <!-- Fila de la cuadrícula (grid) con elementos centrados horizontalmente -->
+        <div class="row">
+            <!-- Columna ocupando todo el ancho en todos los tamaños de pantalla -->
+            <div class="col-12 text-center">
+                <!-- Encabezado principal de la página -->
+                <h1>CATALOGO DE PRODUCTOS</h1>
+            </div>
+            <!-- Otra columna ocupando todo el ancho en todos los tamaños de pantalla -->
+            <div class="col-12 text-center">
+                <!-- Subtítulo -->
+                <h5>HOMBRE</h5>
+            </div>
+        </div>
+    </div>
+    <!-- Línea horizontal -->
+    <hr>
+    <!-- Otro contenedor principal utilizando Bootstrap -->
+    <div class="container">
+        <!-- Fila de la cuadrícula con dos columnas: una para la imagen y otra para la información -->
+        <div class="row">
+            <!-- Columna ocupando todo el ancho en todos los tamaños de pantalla, pero la mitad en pantallas medianas -->
+            <div class="col-12 col-md-6">
+                <!-- Imagen del producto con clase "rounded" para bordes redondeados y altura de 300px -->
+                <img src="/imagenes/br1.jpg" alt="img1" class="rounded" height="300px">
+            </div>
+            <!-- Otra columna ocupando todo el ancho en todos los tamaños de pantalla, pero la mitad en pantallas medianas -->
+            <div class="col-12 col-md-6">
+                <!-- Título del producto -->
+                <h2>POLO ESTRUCTURADO</h2>
+                <!-- Otra columna ocupando todo el ancho en todos los tamaños de pantalla -->
+                <div class="col-12">
+                    <!-- Precio del producto -->
+                    <h3>$25.00</h3>
+                </div>
+                <!-- Otra columna ocupando todo el ancho en todos los tamaños de pantalla -->
+                <div class="col-12">
+                    <!-- Descripción del producto -->
+                    <p>Polo confeccionado en tejido de algodón con estructura piqué. Manga corta acabada en rib. Bajo con aberturas laterales.</p>
+                </div>
+                <!-- Fila de la cuadrícula con dos columnas: una para el menú desplegable y otra para la cantidad -->
+                <div class="row mt-3">
+                    <!-- Columna ocupando la mitad del ancho en todos los tamaños de pantalla -->
+                    <div class="col-6 text-center">
+                        <!-- Menú desplegable con clases de formulario de Bootstrap -->
+                        <div class="form-group">
+                            <select class="form-control">
+                                <option selected>Tallas</option>
+                                <option>S</option>
+                                <option>M</option>
+                                <option>L</option>
+                                <option>XL</option>
+                            </select>
+                        </div>
+                    </div>
+                    <!-- Otra columna ocupando la mitad del ancho en todos los tamaños de pantalla -->
+                    <div class="col-6 text-center">
+                        <!-- Entrada numérica con clase de formulario de Bootstrap -->
+                        <input type="number" class="form-control" id="cantidad" value="1" required>
+                    </div>
+                </div>
+                <!-- Fila de la cuadrícula con una columna para el botón de añadir al carrito -->
+                <div class="row mt-3">
+                    <!-- Columna ocupando todo el ancho en todos los tamaños de pantalla -->
+                    <div class="col-12 text-center">
+                        <!-- Enlace como botón con clase de Bootstrap -->
+                        <a href="#" class="btn btn-success btn-block">Añadir al carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
